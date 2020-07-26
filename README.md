@@ -49,7 +49,9 @@ docker-compose up
 
 - Ficará disponível em localhost:8000/admin
 - Logar com o usuário criado
-- Documentação: http://127.0.0.1:8000/doc
+- Documentação:
+- Swagger: http://127.0.0.1:8000/doc
+- Redoc: http://127.0.0.1:8000/redoc
 
 
 ## Demo da aplicação:

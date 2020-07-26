@@ -163,3 +163,17 @@ JWT_AUTH = {
     "JWT_AUTH_HEADER_PREFIX": "JWT",
     "JWT_AUTH_COOKIE": False,
 }
+
+
+SWAGGER_SETTINGS = {
+   'SECURITY_DEFINITIONS': {
+      'Basic': {
+            'type': 'basic'
+      },
+      'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header'
+      }
+   }
+}
