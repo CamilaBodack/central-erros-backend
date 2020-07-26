@@ -64,4 +64,3 @@ o que prejudicou a visualização da documentação e interface de admin, desta 
 irei verificar o que causou esse conflito, farei a correção e novo deploy
 
 - Usuário para testes: u32048/senha: 12345678
-# central-erros-backend
