@@ -58,7 +58,7 @@ docker-compose up
 
 -  Demo disponível em:
 
-https://obscure-sands-75237.herokuapp.com/
+- https://obscure-sands-75237.herokuapp.com/
 
 **OBS**
 - A interface do django não renderiza corretamente após o deploy no Heroku,
