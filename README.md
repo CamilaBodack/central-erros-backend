@@ -62,7 +62,7 @@ https://obscure-sands-75237.herokuapp.com/
 
 **OBS**
 - A interface do django não renderiza corretamente após o deploy no Heroku,
-o que prejudicou a visualização da documentação e interface de admin, desta forma,
-irei verificar o que causou esse conflito, farei a correção e novo deploy
+o que pode prejudicar a visualização da documentação e interface de admin,
+desta forma,será verificada a causa, feita a correção e novo deploy.
 
 - Usuário para testes: u32048/senha: 12345678
