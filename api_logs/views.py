@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter
 from rest_framework.permissions import IsAuthenticated
-from rest_framework_simplejwt.authentication import JWTAuthentication
 from .models import Event
 from .serializers import EventSerializer
 from operator import itemgetter
@@ -13,7 +12,6 @@ from operator import itemgetter
 class EventViewSet(viewsets.ModelViewSet):
     serializer_class = EventSerializer
     permission_classes = [IsAuthenticated]
-    authentication_classes = [JWTAuthentication]
     queryset = Event.objects.all()
     count_critical = Event.objects.filter(level="1").count()
     count_debug = Event.objects.filter(level="2").count()
