@@ -9,7 +9,7 @@ dj-static==0.0.6
 dj-database-url
 Django==3.0.8
 django-filter==2.3.0
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-simplejwt==4.4.0
 drf-yasg==1.17.1
 idna==2.10
